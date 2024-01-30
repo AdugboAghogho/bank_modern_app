@@ -12,6 +12,12 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  
+    --bg-primary: #00040f;
+    --bg-secondary: #00f6ff;
+    --bg-dim-white: rgba(255, 255, 255, 0.7);
+    --bg-dim-blue: rgba(9, 151, 124, 0.1);
+
 }
 
 * {
@@ -71,6 +77,8 @@
     #14101d 95.11%
   );
 }
+
+
 
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
