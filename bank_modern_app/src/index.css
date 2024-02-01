@@ -93,6 +93,13 @@
   transition: 3s ease;
 }
 
+
+.colver1:hover{
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+  transition: 3s ease;
+}
+
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
