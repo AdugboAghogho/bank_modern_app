@@ -1,6 +1,6 @@
-import React from 'react'
 
-const Button = ({ styles }) => {
+
+const Button = ( styles: any ) => {
   return (
     <button
       type='button'
