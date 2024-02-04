@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles, { layout } from '../style'
 import Button from './Button';
 import { features } from '../constants';
