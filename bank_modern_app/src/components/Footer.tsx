@@ -3,10 +3,10 @@ import styles from '../style'
 import { logo } from '../assets'
 import { footerLinks, socialMedia } from '../constants'
 
-interface FooterLink {
-  title: string;
-  links: { name: string; link: string; }[];
-}
+// interface FooterLink {
+//   title: string;
+//   links: { name: string; link: string; }[];
+// }
 
 const Footer: React.FC = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => (
         ))}
       </div>
     </div>
-    
+
   </section>
 )
 
