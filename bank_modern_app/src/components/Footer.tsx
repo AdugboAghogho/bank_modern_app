@@ -51,7 +51,7 @@ const Footer = () => (
             key={social.id}
             src={social.icon} 
             alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length -1 ? 'mr-6' : 'mr-0'}`}
+            className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length -1 ? 'mr-6' : 'mr-0'} hover:text-secondary`}
           />
         ))}
       </div>
