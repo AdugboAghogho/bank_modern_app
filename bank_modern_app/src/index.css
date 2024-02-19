@@ -91,6 +91,7 @@
     #14101d 95.11%
   );
   transition: 3s ease;
+  transform: scale(1.1);
 }
 
 
